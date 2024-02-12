@@ -24,7 +24,7 @@ def getResizedValues(tempImage):
 
 imageList = [];
 for file in os.listdir(resize_folder_path):
-    if file.endswith(".jpg") or file.endswith(".jpeg") or file.endswith(".JPEG") or file.endswith(".heic"):
+    if file.endswith(".jpg") or file.endswith(".jpeg") or file.endswith(".JPEG") or file.endswith(".heic") or file.endswith(".HEIC"):
         # print("Filename : ", file)
         # print(os.path.join("/mydir", file))
         imageList.append(file)
