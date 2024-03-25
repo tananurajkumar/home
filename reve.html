@@ -47,6 +47,7 @@
 	<link rel="stylesheet" href="css/style.css">
 
 	<!-- Modernizr JS -->
+	<script src="script.js"></script>
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
@@ -94,13 +95,28 @@
 		<!-- Important for alignment  -->
 
 		<h1 class="colorlib-logo-mobile"><a href="index.html">Kanika & </br>Anuraj</a></h1>
-
 		<div id="colorlib-main">
-			<br>
+		<br>
 			
+		<h1>Welcome to the Protected Page!</h1>
+		<form id="password-form">
+			<label for="password">Enter the password:</label>
+			<input type="password" id="password" name="password">
+			<center><button type="button" onclick="checkPassword()">Submit</button>
+			</center>
+		</form>
+		<div id="hidden-content" style="display: none;">
+			<!-- Your protected content goes here -->
+			<p>This is the secret content you've unlocked!</p>
 
-<!-- Line 5 -->
-					<div class="col-md-6">
+			<div class="responsive">
+					 <div class="gallery">
+					<!-- <a target="_blank" href="img_5terre.jpg">
+					<img src="1.jpg" alt="Cinque Terre">
+					</a>
+				<div class="desc">Add a description of the image here</div> -->
+
+				<div class="col-md-6">
 						<div class="row">
 							<div class="col-md-12">
 								<div class="blog-entry animate-box">
@@ -147,101 +163,16 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-5">
-						<div class="blog-entry animate-box">
-							<a data-fancybox="gallery" data-caption=""
-								href="images/2023/33.JPEG">
-								<div class="blog-img blog-portrait-mid"
-									style="background-image: url(images/2023/33.JPEG);">
-									<div class="desc text-center">
-										<!-- <p class="tag"><span>Movies</span></p> -->
-										<!--<h2 class="head-article"></h2> -->
+		</div>
+		</div>
+			</div>
 
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
+		
 
-					<!-- Line 6 -->
-					<div class="col-md-6">
-						<div class="blog-entry animate-box">
-							<a data-fancybox="gallery" data-caption=""
-								href="images/2023/34.JPEG">
-								<div class="blog-img" style="background-image: url(images/2023/34.JPEG);">
-									<div class="desc text-center">
-										<!-- <p class="tag"><span>Movies</span></p> -->
-										<!--<h2 class="head-article"></h2> -->
+				   
+					
 
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="col-md-5">
-						<div class="blog-entry animate-box">
-							<a data-fancybox="gallery" data-caption=""
-								href="images/2023/29.jpg">
-								<div class="blog-img blog-portrait-mid"
-									style="background-image: url(images/2023/29.jpg);">
-									<div class="desc text-center">
-										<!-- <p class="tag"><span>Healthy</span></p> -->
-										<!--<h2 class="head-article"></h2> -->
-
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-
-					<!-- Line 7 -->
-					<div class="col-md-3">
-						<div class="blog-entry animate-box">
-							<a data-fancybox="gallery" data-caption=""
-								href="images/2023/35.JPEG">
-								<div class="blog-img blog-img-small-portrait"
-									style="background-image: url(images/2023/35.JPEG);">
-									<div class="desc text-center">
-										<!-- <p class="tag"><span>Place</span></p> -->
-										<!--<h2 class="head-article"></h2> -->
-
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="col-md-2">
-						<div class="blog-entry animate-box">
-							<a data-fancybox="gallery" data-caption=""
-								href="images/2023/36.JPEG">
-								<div class="blog-img blog-img-small-portrait"
-									style="background-image: url(images/2023/36.JPEG);">
-									<div class="desc text-center">
-										<!-- <p class="tag"><span>Place</span></p> -->
-										<!--<h2 class="head-article"></h2> -->
-
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-
-					<div class="col-md-6">
-						<div class="blog-entry animate-box">
-							<a data-fancybox="gallery" data-caption=""
-								href="images/2023/37.JPEG">
-								<div class="blog-img blog-img-small-portrait"
-									style="background-image: url(images/2023/37.JPEG);">
-									<div class="desc text-center">
-										<!-- <p class="tag"><span>Place</span></p> -->
-										<!--<h2 class="head-article"></h2> -->
-
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
+					
 
 		</div>
 	</div>

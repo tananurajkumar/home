@@ -1,7 +1,7 @@
 // script.js
 function checkPassword() {
     const enteredPassword = document.getElementById('password').value;
-    const secretPassword = 'mysecret'; // Change this to your desired password
+    const secretPassword = 'reverie'; // Change this to your desired password
 
     if (enteredPassword === secretPassword) {
         document.getElementById('hidden-content').style.display = 'block';
